@@ -1,0 +1,20 @@
+{
+    "name": "diego/blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pronesti",
+            "email": "dieh.diego@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        }
+    }
+}

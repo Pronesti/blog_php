@@ -1,0 +1,13 @@
+<div class="ml-2">
+<form class="form m-2" action="newPost" method="POST">
+  <label class="sr-only" for="inlineFormInputName2">New post</label>
+  <input type="text" name="postmsg" class="form-control w-75 float-left mr-4"  placeholder="Write something...">
+  <input type="hidden" name="username" class="form-control w-75 float-left mr-4" value="{{username}}">
+  <button type="submit" class="btn btn-primary mb-2">POST</button>
+</form>
+</div>
+<div class="card m-2">
+  <div class="card-body">
+    {{posts}}
+  </div>
+</div>
